@@ -4,5 +4,5 @@ def sigma(r, n, multiplier, constant):
         sum += ((i*multiplier) + constant)
     return sum
 
-print(sigma(1,3,2,3))
-print(sigma(-1,2,1/2,-1))
+assert(sigma(1,3,2,3)==21)
+assert(int(sigma(-1,2,1/2,-1))==3)
