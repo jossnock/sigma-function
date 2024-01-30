@@ -1,2 +1,2 @@
 # sigma-function
-works for only arithmetic sequences so far
+works for only arithmetic series so far
