@@ -5,4 +5,5 @@ def sigma(r, n, multiplier, constant):
     return sum
 
 assert(sigma(1,3,2,3)==21)
-assert(int(sigma(-1,2,1/2,-1))==3)
+assert(int(sigma(-1,2,1/2,-1))==-3)
+assert(sigma(1,3,1,0)==6)
